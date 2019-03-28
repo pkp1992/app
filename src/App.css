@@ -1,5 +1,14 @@
+* {
+  margin: 5px;
+}
+
 body {
   margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .App {

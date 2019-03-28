@@ -12,7 +12,10 @@ import "./index.css";
 // import PersistEvent from "./PersistEvent";
 // import Update from "./Update";
 // import SimpleRouter from "./SimpleRouter";
-import SwitchRouter from "./SwitchRouter";
+// import SwitchRouter from "./SwitchRouter";
+// import Nested from "./Nested";
+import Private from "./Private";
+// import Pagin from "./Pagin";
 // import ErrorHandling from "./ErrorHandling";
 // import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
@@ -32,7 +35,8 @@ ReactDOM.render(
   //   <SimpleRouter />
   // </BrowserRouter>,
   <BrowserRouter>
-    <SwitchRouter />
+    {/* <Pagin /> */}
+    <Private />
   </BrowserRouter>,
   document.getElementById("root")
 );

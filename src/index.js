@@ -14,7 +14,8 @@ import "./index.css";
 // import SimpleRouter from "./SimpleRouter";
 // import SwitchRouter from "./SwitchRouter";
 // import Nested from "./Nested";
-import Private from "./Private";
+// import Private from "./Private";
+import ForwarderRef from "./ForwarderRef";
 // import Pagin from "./Pagin";
 // import ErrorHandling from "./ErrorHandling";
 // import * as serviceWorker from "./serviceWorker";
@@ -35,8 +36,7 @@ ReactDOM.render(
   //   <SimpleRouter />
   // </BrowserRouter>,
   <BrowserRouter>
-    {/* <Pagin /> */}
-    <Private />
+    < ForwarderRef / >
   </BrowserRouter>,
   document.getElementById("root")
 );

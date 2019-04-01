@@ -36,7 +36,7 @@ ReactDOM.render(
   //   <SimpleRouter />
   // </BrowserRouter>,
   <BrowserRouter>
-    < ForwarderRef / >
+    < ForwarderRef />
   </BrowserRouter>,
   document.getElementById("root")
 );

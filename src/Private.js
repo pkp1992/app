@@ -71,3 +71,6 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
     )}
   </AuthConsumer>
 );
+
+
+/////// Lesson 10 00:57:59
